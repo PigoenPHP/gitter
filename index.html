@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alex Morgan — Creative Developer & Designer</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="navbar">
+        <div class="container nav-container">
+            <a href="#" class="logo">AM.</a>
+            <nav class="nav-links">
+                <a href="#about">About</a>
+                <a href="#projects">Projects</a>
+                <a href="#skills">Skills</a>
+                <a href="#contact" class="btn-nav">Let's Talk</a>
+            </nav>
+            <button class="mobile-menu-btn" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container hero-container">
+                <div class="hero-content">
+                    <span class="badge">Creative Developer & Designer</span>
+                    <h1>Building digital experiences that matter.</h1>
+                    <p>Hi, I'm Alex. I craft clean, performant, and user-centric web applications with modern technologies.</p>
+                    <div class="hero-actions">
+                        <a href="#projects" class="btn btn-primary">View My Work</a>
+                        <a href="#contact" class="btn btn-secondary">Get in Touch</a>
+                    </div>
+                </div>
+                <div class="hero-visual">
+                    <div class="card-glow"></div>
+                    <div class="code-preview">
+                        <div class="window-header">
+                            <span class="dot red"></span>
+                            <span class="dot yellow"></span>
+                            <span class="dot green"></span>
+                            <span class="filename">developer.js</span>
+                        </div>
+                        <pre><code><span class="keyword">const</span> <span class="variable">developer</span> = {
+  <span class="property">name</span>: <span class="string">'Alex Morgan'</span>,
+  <span class="property">role</span>: <span class="string">'Frontend Engineer'</span>,
+  <span class="property">focus</span>: [<span class="string">'UI/UX'</span>, <span class="string">'Web perf'</span>, <span class="string">'React'</span>],
+  <span class="property">status</span>: <span class="string">'Available for hire'</span>
+};</code></pre>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about">
+            <div class="container">
+                <div class="section-header">
+                    <h2>About Me</h2>
+                    <p>A brief overview of who I am and what drives me.</p>
+                </div>
+                <div class="about-grid">
+                    <div class="about-card">
+                        <h3>Design & Code</h3>
+                        <p>I bridge the gap between aesthetic design and robust technical implementation, ensuring every pixel looks great and performs seamlessly.</p>
+                    </div>
+                    <div class="about-card">
+                        <h3>Problem Solving</h3>
+                        <p>I love tackling complex challenges, simplifying workflows, and creating intuitive solutions for real-world user needs.</p>
+                    </div>
+                    <div class="about-card">
+                        <h3>Continuous Learning</h3>
+                        <p>The web ecosystem evolves fast. I stay on top of industry trends, tools, and best practices to deliver cutting-edge results.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="projects">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Featured Projects</h2>
+                    <p>Some of my recent work and open source contributions.</p>
+                </div>
+                <div class="projects-grid">
+                    <article class="project-card">
+                        <div class="project-img-placeholder p1"></div>
+                        <div class="project-content">
+                            <span class="project-tag">Web App</span>
+                            <h3>Nova Dashboard</h3>
+                            <p>An analytics dashboard featuring real-time charts, dark mode, and customizable widgets.</p>
+                            <div class="project-links">
+                                <a href="#" class="link-arrow">Live Demo &rarr;</a>
+                                <a href="#" class="link-source">GitHub</a>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="project-card">
+                        <div class="project-img-placeholder p2"></div>
+                        <div class="project-content">
+                            <span class="project-tag">E-Commerce</span>
+                            <h3>Aura Storefront</h3>
+                            <p>A minimalist headless e-commerce experience built with blazing-fast static generation.</p>
+                            <div class="project-links">
+                                <a href="#" class="link-arrow">Live Demo &rarr;</a>
+                                <a href="#" class="link-source">GitHub</a>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="project-card">
+                        <div class="project-img-placeholder p3"></div>
+                        <div class="project-content">
+                            <span class="project-tag">Developer Tool</span>
+                            <h3>Pulse CLI</h3>
+                            <p>A command-line utility for scaffolding modern web projects with zero configuration.</p>
+                            <div class="project-links">
+                                <a href="#" class="link-arrow">Live Demo &rarr;</a>
+                                <a href="#" class="link-source">GitHub</a>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="skills">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Technical Skills</h2>
+                    <p>Tools and technologies I use daily.</p>
+                </div>
+                <div class="skills-grid">
+                    <div class="skill-item">HTML5 / CSS3</div>
+                    <div class="skill-item">JavaScript (ES6+)</div>
+                    <div class="skill-item">TypeScript</div>
+                    <div class="skill-item">React & Next.js</div>
+                    <div class="skill-item">Vue.js</div>
+                    <div class="skill-item">Tailwind CSS</div>
+                    <div class="skill-item">Node.js</div>
+                    <div class="skill-item">Git & GitHub</div>
+                    <div class="skill-item">UI/UX Design</div>
+                    <div class="skill-item">Web Performance</div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <div class="container">
+                <div class="contact-box">
+                    <h2>Let's build something amazing together.</h2>
+                    <p>Have a project in mind or want to chat? Drop me a message.</p>
+                    <a href="mailto:hello@example.com" class="btn btn-primary">Say Hello</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container footer-container">
+            <p>&copy; 2025 Alex Morgan. All rights reserved.</p>
+            <div class="social-links">
+                <a href="#">GitHub</a>
+                <a href="#">LinkedIn</a>
+                <a href="#">Twitter</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

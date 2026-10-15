@@ -1,0 +1,14 @@
+{
+    "name": "root/home",
+    "autoload": {
+        "psr-4": {
+            "Root\\Home\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "su"
+        }
+    ],
+    "require": {}
+}
