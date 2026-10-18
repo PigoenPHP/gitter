@@ -3,10 +3,13 @@
     "description": "Gitter",
     "type": "project",
     "require": {
-        "php": "^8.5"
+        "php": "^8.3"
     },
     "license": "Apache-2.0",
     "autoload": {
+        "files": [
+            "app/Services/Functions.php"
+        ],
         "psr-4": {
             "App\\": "app/"
         }
