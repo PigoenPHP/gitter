@@ -1,14 +1,22 @@
 {
-    "name": "root/home",
+    "name": "gitter/gitter",
+    "description": "Gitter",
+    "type": "project",
+    "require": {
+        "php": "^8.5"
+    },
+    "license": "Apache-2.0",
     "autoload": {
         "psr-4": {
-            "Root\\Home\\": "src/"
+            "App\\": "app/"
         }
     },
     "authors": [
         {
-            "name": "su"
+            "name": "Sushil Kumar",
+            "email": "sushilkumbhar77@gmail.com"
         }
     ],
-    "require": {}
+    "minimum-stability": "dev",
+    "prefer-stable": true
 }
